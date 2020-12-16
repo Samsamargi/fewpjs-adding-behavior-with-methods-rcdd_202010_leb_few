@@ -30,7 +30,7 @@ class Dog {
     this.sex = sex;
   }
   speak() {
-    if (this.sex === 'male') {
+  if (this.sex === 'male') {
       return `It's me! ${this.name} the parrot!`;
     } else {
       return `${this.name} says Squawk!`;
@@ -41,3 +41,4 @@ let bird = new Bird('Pablo', 'male');
 let bird2 = new Bird('Mable', 'female');
 bird.speak();
 bird2.speak();
+console.log(speak())
