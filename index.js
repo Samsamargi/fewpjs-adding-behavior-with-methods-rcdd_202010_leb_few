@@ -25,7 +25,8 @@ class Dog {
  
  
  class Bird {
-   
+   let bird= new Bird('Pablo','male');
+ let bird2= new Bird('Mable', 'female');
    constructor(name, sex) {
      this.name = name;
      this.sex = sex;
@@ -36,6 +37,5 @@ class Dog {
   bird2.speak(){ return `${this.name} says Squawk!`;
     
  }
- let bird= new Bird ('Pablo', male);
- let bird2 =new Bird ('Mable' , female);
+
  }
