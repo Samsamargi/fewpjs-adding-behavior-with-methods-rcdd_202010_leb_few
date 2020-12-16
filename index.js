@@ -31,9 +31,9 @@ class Dog {
      this.sex = sex;
    }
   speak(){
- if (this.sex=== male) {
+ if (bird.speak) {
         return `It's me !${this.name} the parrot!`;
-    } else {
+    } else if (bird2.speak) {
        return `${this.name} says Squawk!`;
     }
  }
