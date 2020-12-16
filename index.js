@@ -38,4 +38,4 @@ class Dog {
      else if (sex==='female') return `It's me! ${this.name} says Squawk!`;}
     
  }
- 
+ bird.s
