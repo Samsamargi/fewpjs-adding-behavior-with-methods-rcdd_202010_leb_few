@@ -34,10 +34,8 @@ class Dog {
    let bird= new Bird('Pablo','male');
    let bird2= new Bird('Mable', 'female');
        
-       if (bird) return `It's me! ${this.name} the parrot!`;
-     else if (bird2) return `It's me! ${this.name} says Squawk!`;}
+       if (sex==='male') return `It's me! ${this.name} the parrot!`;
+     else if (sex==='female') return `It's me! ${this.name} says Squawk!`;}
     
  }
  
- let bird= new Bird('Pablo','male');
- let bird2= new Bird('Mable', 'female');
