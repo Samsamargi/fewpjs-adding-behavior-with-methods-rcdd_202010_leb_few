@@ -31,7 +31,7 @@ class Dog {
      this.sex = sex;
    }
   speak(){
-        return `It's me !${this.name} the parrot!`;
+        return `It's me! ${this.name} the parrot!`;
     }
   speakbird2(){ return `${this.name} says Squawk!`;
     
