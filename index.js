@@ -33,7 +33,7 @@ class Dog {
   speak(){
         return `It's me! ${this.name} the parrot!`;
     }
-  speakbird2(){ return `${this.name} says Squawk!`;
+  speakbird2(){ return `It's me! ${this.name} says Squawk!`;
     
  }
  }
